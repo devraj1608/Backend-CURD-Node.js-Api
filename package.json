@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-curd-api",
+  "version": "1.0.0",
+  "description": "this is vanilla nodejs CURD api",
+  "license": "ISC",
+  "author": "Devraj saini",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.0"
+  }
+}
